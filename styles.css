@@ -5,7 +5,7 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: #E5D3B3;
 }
 
 #gameArea {
@@ -20,7 +20,7 @@ body {
   position: absolute;
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: #82CAFF;
   border-radius: 50%;
   cursor: pointer;
 }
