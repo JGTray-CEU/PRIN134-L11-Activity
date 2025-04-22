@@ -26,7 +26,8 @@ target.addEventListener('contextmenu', (e) => {
 });
 
 gameArea.addEventListener('contextmenu', (e) => {
-  e.preventDefault()
+  e.preventDefault();
+});
 
 document.addEventListener('keydown', (e) => {
   if (e.ctrlKey && e.key.toLowerCase() === 'h') {
