@@ -1,28 +1,52 @@
 body {
+  background-color: #353935;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 100vh;
-  margin: 0;
-  background-color: #E5D3B3;
+}
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.controls input, .controls button {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #fff;
 }
 
 #gameArea {
   position: relative;
   width: 80%;
   height: 60%;
-  border: 2px solid #000;
-  background-color: #fff;
+  border: 2px solid #FFF5EE;
+  background-color: #28282B;
+  overflow: hidden;
 }
 
-#target {
+.target {
   position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: #82CAFF;
+  width: 40px;
+  height: 40px;
+  background-color: #48CAE4;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   cursor: pointer;
+  user-select: none;
 }
 
 #scoreBoard {
